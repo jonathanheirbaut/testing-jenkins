@@ -52,13 +52,4 @@ public class TestCalculator {
         assertEquals("Multiplication was not calculated correctly", 30, result, 0);
     }
 
-
-    @Test
-    public void jenkinsHasToFail(){
-        assertEquals("Test has failed", true, false);
-    }
-
-
-
-
 }
