@@ -53,6 +53,12 @@ public class TestCalculator {
     }
 
 
+    @Test
+    public void jenkinsHasToFail(){
+        assertEquals("Test has failed", true, false);
+    }
+
+
 
 
 }
